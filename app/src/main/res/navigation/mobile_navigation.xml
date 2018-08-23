@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mainActivity2">
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.ramnivas.jetpacknavigation.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+    </activity>
+    <activity
+        android:id="@+id/main2Activity2"
+        android:name="com.ramnivas.jetpacknavigation.Main2Activity"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+</navigation>
